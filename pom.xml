@@ -95,7 +95,7 @@
 
         <textile-j.version>2.2</textile-j.version>
         <jmustache.version>1.9</jmustache.version>
-        <cssbox.version>4.7</cssbox.version>
+        <cssbox.version>4.15</cssbox.version>
         <jstyleparser.version>1.18</jstyleparser.version>
         <nekohtml.version>1.9.21</nekohtml.version>
         <google.htmlcompressor.version>1.5.2</google.htmlcompressor.version>
@@ -1286,7 +1286,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <execute />
+                                        <execute/>
                                     </action>
                                 </pluginExecution>
                                 <pluginExecution>
@@ -1300,7 +1300,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <execute />
+                                        <execute/>
                                     </action>
                                 </pluginExecution>
                                 <pluginExecution>
@@ -1313,7 +1313,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <execute />
+                                        <execute/>
                                     </action>
                                 </pluginExecution>
                             </pluginExecutions>
