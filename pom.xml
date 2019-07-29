@@ -63,7 +63,7 @@
 
         <jackson2.core.version>2.4.2</jackson2.core.version>
         <jackson2.annotations.version>2.4.2</jackson2.annotations.version>
-        <jackson2.databind.version>2.4.2</jackson2.databind.version>
+        <jackson2.databind.version>2.9.9.2</jackson2.databind.version>
         <validator.version>5.1.2.Final</validator.version>
         <spel-validator.version>1.0.1</spel-validator.version>
 
@@ -77,7 +77,7 @@
         <javax.activation.version>1.1.1</javax.activation.version>
 
         <quartz.version>2.2.1</quartz.version>
-        <c3p0.version>0.9.5-pre8</c3p0.version>
+        <c3p0.version>0.9.5.4</c3p0.version>
 
         <paypal.merchantsdk.version>2.11.117</paypal.merchantsdk.version>
 
@@ -1286,7 +1286,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <execute />
+                                        <execute/>
                                     </action>
                                 </pluginExecution>
                                 <pluginExecution>
@@ -1300,7 +1300,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <execute />
+                                        <execute/>
                                     </action>
                                 </pluginExecution>
                                 <pluginExecution>
@@ -1313,7 +1313,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <execute />
+                                        <execute/>
                                     </action>
                                 </pluginExecution>
                             </pluginExecutions>
