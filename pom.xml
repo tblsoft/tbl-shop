@@ -44,7 +44,7 @@
         <commons.logging.version>1.2</commons.logging.version>
         <commons.math.version>3.4</commons.math.version>
         <commons.pool.version>2.2</commons.pool.version>
-        <commons.validator.version>1.4.0</commons.validator.version>
+        <commons.validator.version>1.7</commons.validator.version>
         <guava.version>18.0</guava.version>
         <bouncycastle.version>1.51</bouncycastle.version>
         <jsch.version>0.1.51</jsch.version>
@@ -54,7 +54,7 @@
         <aspectj.version>1.8.2</aspectj.version>
 
         <mysql.version>5.1.33</mysql.version>
-        <hibernate.version>4.3.6.Final</hibernate.version>
+        <hibernate.version>5.3.18.Final</hibernate.version>
         <jadira-usertype.version>3.2.0.GA</jadira-usertype.version>
         <querydsl.version>3.4.3</querydsl.version>
         <mysema-commons.version>0.2.4</mysema-commons.version>
@@ -64,12 +64,12 @@
         <jackson2.core.version>2.4.2</jackson2.core.version>
         <jackson2.annotations.version>2.4.2</jackson2.annotations.version>
         <jackson2.databind.version>2.4.2</jackson2.databind.version>
-        <validator.version>5.1.2.Final</validator.version>
+        <validator.version>6.0.19.Final</validator.version>
         <spel-validator.version>1.0.1</spel-validator.version>
 
         <spring.version>4.1.0.RELEASE</spring.version>
         <spring.security.version>3.2.5.RELEASE</spring.security.version>
-        <spring.security.oauth2.version>2.0.2.RELEASE</spring.security.oauth2.version>
+        <spring.security.oauth2.version>2.4.1.RELEASE</spring.security.oauth2.version>
         <spring.security.jwt.version>1.0.2.RELEASE</spring.security.jwt.version>
         <spring.data.version>1.7.0.RELEASE</spring.data.version>
 
@@ -110,13 +110,13 @@
         <closure-compiler.version>v20140814</closure-compiler.version>
 
         <less.version>1.7.5</less.version>
-        <bootstrap.version>3.2.0</bootstrap.version>
+        <bootstrap.version>4.5.0</bootstrap.version>
 
-        <jquery.version>1.11.1</jquery.version>
+        <jquery.version>3.5.0</jquery.version>
         <jquery-cookie.version>1.3.1</jquery-cookie.version>
         <datatables.version>1.10.2</datatables.version>
         <datatables-plugins.version>15ba23c72a</datatables-plugins.version>
-        <font-awesome.version>4.2.0</font-awesome.version>
+        <font-awesome.version>4.3.0-1</font-awesome.version>
         <bootstrap-datepicker.version>1.3.0-3</bootstrap-datepicker.version>
         <bootstrap-filestyle.version>1.1.2</bootstrap-filestyle.version>
         <!-- Build Properties -->
@@ -1286,7 +1286,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <execute />
+                                        <execute/>
                                     </action>
                                 </pluginExecution>
                                 <pluginExecution>
@@ -1300,7 +1300,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <execute />
+                                        <execute/>
                                     </action>
                                 </pluginExecution>
                                 <pluginExecution>
@@ -1313,7 +1313,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <execute />
+                                        <execute/>
                                     </action>
                                 </pluginExecution>
                             </pluginExecutions>
