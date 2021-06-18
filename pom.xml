@@ -37,7 +37,7 @@
         <commons.dbcp.version>2.0.1</commons.dbcp.version>
         <commons.digester.version>3.2</commons.digester.version>
         <commons.digester-legacy.version>2.1</commons.digester-legacy.version>
-        <commons.httpclient.version>4.3.5</commons.httpclient.version>
+        <commons.httpclient.version>4.4.1</commons.httpclient.version>
         <commons.io.version>2.4</commons.io.version>
         <commons.lang.version>2.6</commons.lang.version>
         <commons.lang3.version>3.3.2</commons.lang3.version>
@@ -47,14 +47,14 @@
         <commons.validator.version>1.4.0</commons.validator.version>
         <guava.version>18.0</guava.version>
         <bouncycastle.version>1.51</bouncycastle.version>
-        <jsch.version>0.1.51</jsch.version>
+        <jsch.version>0.1.54</jsch.version>
         <xml-apis.version>1.4.01</xml-apis.version>
         <xerces.version>2.11.0</xerces.version>
         <antlr-runtime.version>3.5.2</antlr-runtime.version>
         <aspectj.version>1.8.2</aspectj.version>
 
         <mysql.version>5.1.33</mysql.version>
-        <hibernate.version>4.3.6.Final</hibernate.version>
+        <hibernate.version>5.4.24.Final</hibernate.version>
         <jadira-usertype.version>3.2.0.GA</jadira-usertype.version>
         <querydsl.version>3.4.3</querydsl.version>
         <mysema-commons.version>0.2.4</mysema-commons.version>
@@ -63,21 +63,21 @@
 
         <jackson2.core.version>2.4.2</jackson2.core.version>
         <jackson2.annotations.version>2.4.2</jackson2.annotations.version>
-        <jackson2.databind.version>2.4.2</jackson2.databind.version>
+        <jackson2.databind.version>2.8.6</jackson2.databind.version>
         <validator.version>5.1.2.Final</validator.version>
         <spel-validator.version>1.0.1</spel-validator.version>
 
         <spring.version>4.1.0.RELEASE</spring.version>
         <spring.security.version>3.2.5.RELEASE</spring.security.version>
         <spring.security.oauth2.version>2.0.2.RELEASE</spring.security.oauth2.version>
-        <spring.security.jwt.version>1.0.2.RELEASE</spring.security.jwt.version>
+        <spring.security.jwt.version>1.0.11.RELEASE</spring.security.jwt.version>
         <spring.data.version>1.7.0.RELEASE</spring.data.version>
 
         <javax.mail.version>1.5.2</javax.mail.version>
         <javax.activation.version>1.1.1</javax.activation.version>
 
         <quartz.version>2.2.1</quartz.version>
-        <c3p0.version>0.9.5-pre8</c3p0.version>
+        <c3p0.version>0.9.5.4</c3p0.version>
 
         <paypal.merchantsdk.version>2.11.117</paypal.merchantsdk.version>
 
@@ -95,7 +95,7 @@
 
         <textile-j.version>2.2</textile-j.version>
         <jmustache.version>1.9</jmustache.version>
-        <cssbox.version>4.7</cssbox.version>
+        <cssbox.version>5.0.0</cssbox.version>
         <jstyleparser.version>1.18</jstyleparser.version>
         <nekohtml.version>1.9.21</nekohtml.version>
         <google.htmlcompressor.version>1.5.2</google.htmlcompressor.version>
@@ -110,13 +110,13 @@
         <closure-compiler.version>v20140814</closure-compiler.version>
 
         <less.version>1.7.5</less.version>
-        <bootstrap.version>3.2.0</bootstrap.version>
+        <bootstrap.version>4.5.0</bootstrap.version>
 
         <jquery.version>1.11.1</jquery.version>
         <jquery-cookie.version>1.3.1</jquery-cookie.version>
-        <datatables.version>1.10.2</datatables.version>
+        <datatables.version>1.10.10</datatables.version>
         <datatables-plugins.version>15ba23c72a</datatables-plugins.version>
-        <font-awesome.version>4.2.0</font-awesome.version>
+        <font-awesome.version>4.3.0-1</font-awesome.version>
         <bootstrap-datepicker.version>1.3.0-3</bootstrap-datepicker.version>
         <bootstrap-filestyle.version>1.1.2</bootstrap-filestyle.version>
         <!-- Build Properties -->
@@ -1286,7 +1286,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <execute />
+                                        <execute/>
                                     </action>
                                 </pluginExecution>
                                 <pluginExecution>
@@ -1300,7 +1300,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <execute />
+                                        <execute/>
                                     </action>
                                 </pluginExecution>
                                 <pluginExecution>
@@ -1313,7 +1313,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <execute />
+                                        <execute/>
                                     </action>
                                 </pluginExecution>
                             </pluginExecutions>
