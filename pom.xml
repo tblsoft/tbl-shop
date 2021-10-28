@@ -59,7 +59,7 @@
         <querydsl.version>3.4.3</querydsl.version>
         <mysema-commons.version>0.2.4</mysema-commons.version>
         <mysema-codegen.version>0.6.4</mysema-codegen.version>
-        <liquibase.version>3.2.2</liquibase.version>
+        <liquibase.version>3.6.0</liquibase.version>
 
         <jackson2.core.version>2.4.2</jackson2.core.version>
         <jackson2.annotations.version>2.4.2</jackson2.annotations.version>
@@ -1286,7 +1286,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <execute />
+                                        <execute/>
                                     </action>
                                 </pluginExecution>
                                 <pluginExecution>
@@ -1300,7 +1300,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <execute />
+                                        <execute/>
                                     </action>
                                 </pluginExecution>
                                 <pluginExecution>
@@ -1313,7 +1313,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <execute />
+                                        <execute/>
                                     </action>
                                 </pluginExecution>
                             </pluginExecutions>
