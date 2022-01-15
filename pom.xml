@@ -64,19 +64,19 @@
         <jackson2.core.version>2.4.2</jackson2.core.version>
         <jackson2.annotations.version>2.4.2</jackson2.annotations.version>
         <jackson2.databind.version>2.4.2</jackson2.databind.version>
-        <validator.version>5.1.2.Final</validator.version>
+        <validator.version>6.0.19.Final</validator.version>
         <spel-validator.version>1.0.1</spel-validator.version>
 
         <spring.version>4.1.0.RELEASE</spring.version>
         <spring.security.version>3.2.5.RELEASE</spring.security.version>
-        <spring.security.oauth2.version>2.0.2.RELEASE</spring.security.oauth2.version>
-        <spring.security.jwt.version>1.0.2.RELEASE</spring.security.jwt.version>
+        <spring.security.oauth2.version>2.0.18.RELEASE</spring.security.oauth2.version>
+        <spring.security.jwt.version>1.0.11.RELEASE</spring.security.jwt.version>
         <spring.data.version>1.7.0.RELEASE</spring.data.version>
 
         <javax.mail.version>1.5.2</javax.mail.version>
         <javax.activation.version>1.1.1</javax.activation.version>
 
-        <quartz.version>2.2.1</quartz.version>
+        <quartz.version>2.3.2</quartz.version>
         <c3p0.version>0.9.5-pre8</c3p0.version>
 
         <paypal.merchantsdk.version>2.11.117</paypal.merchantsdk.version>
@@ -1286,7 +1286,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <execute />
+                                        <execute/>
                                     </action>
                                 </pluginExecution>
                                 <pluginExecution>
@@ -1300,7 +1300,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <execute />
+                                        <execute/>
                                     </action>
                                 </pluginExecution>
                                 <pluginExecution>
@@ -1313,7 +1313,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <execute />
+                                        <execute/>
                                     </action>
                                 </pluginExecution>
                             </pluginExecutions>
