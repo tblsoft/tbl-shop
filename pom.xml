@@ -24,11 +24,10 @@
 
         <javax.inject.version>1</javax.inject.version>
 
-        <log4j.version>1.2.17</log4j.version>
-        <log4j-jsonevent-layout.version>1.7</log4j-jsonevent-layout.version>
         <json-smart.version>1.3</json-smart.version>
         <slf4j.version>1.7.7</slf4j.version>
-        <gelf.version>1.11.0</gelf.version>
+        <version.logstash-gelf>1.14.1</version.logstash-gelf>
+        <logback.version>1.2.10</logback.version>
 
         <commons.beantutils.version>1.9.2</commons.beantutils.version>
         <commons.codec.version>1.9</commons.codec.version>
@@ -61,13 +60,13 @@
         <mysema-codegen.version>0.6.4</mysema-codegen.version>
         <liquibase.version>3.2.2</liquibase.version>
 
-        <jackson2.core.version>2.4.2</jackson2.core.version>
-        <jackson2.annotations.version>2.4.2</jackson2.annotations.version>
-        <jackson2.databind.version>2.4.2</jackson2.databind.version>
+        <jackson2.core.version>2.5.2</jackson2.core.version>
+        <jackson2.annotations.version>2.5.2</jackson2.annotations.version>
+        <jackson2.databind.version>2.5.2</jackson2.databind.version>
         <validator.version>5.1.2.Final</validator.version>
         <spel-validator.version>1.0.1</spel-validator.version>
 
-        <spring.version>4.1.0.RELEASE</spring.version>
+        <spring.version>4.3.23.RELEASE</spring.version>
         <spring.security.version>3.2.5.RELEASE</spring.security.version>
         <spring.security.oauth2.version>2.0.2.RELEASE</spring.security.oauth2.version>
         <spring.security.jwt.version>1.0.2.RELEASE</spring.security.jwt.version>
@@ -127,10 +126,10 @@
 
     <repositories>
         <repository>
-            <!-- cf. https://devcenter.heroku.com/articles/local-maven-dependencies 
-                Add new lib with: mvn deploy:deploy-file -Durl=file://lib -Dfile=foo.jar 
-                -DgroupId=de.foo -DartifactId=foo-bar -Dpackaging=jar -Dversion=6.6.6 or 
-                extract pom.xml from jar and type mvn deploy:deploy-file -Durl=file://lib 
+            <!-- cf. https://devcenter.heroku.com/articles/local-maven-dependencies
+                Add new lib with: mvn deploy:deploy-file -Durl=file://lib -Dfile=foo.jar
+                -DgroupId=de.foo -DartifactId=foo-bar -Dpackaging=jar -Dversion=6.6.6 or
+                extract pom.xml from jar and type mvn deploy:deploy-file -Durl=file://lib
                 -Dfile=foo.jar -DpomFile=foo-pom.xml -->
             <id>lib</id>
             <name>project</name>
@@ -151,47 +150,11 @@
                 <version>${javax.inject.version}</version>
             </dependency>
 
-            <!-- Logging -->
-            <dependency>
-                <groupId>log4j</groupId>
-                <artifactId>log4j</artifactId>
-                <version>${log4j.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>net.logstash.log4j</groupId>
-                <artifactId>jsonevent-layout</artifactId>
-                <version>${log4j-jsonevent-layout.version}</version>
-                <scope>runtime</scope>
-            </dependency>
             <dependency>
                 <groupId>net.minidev</groupId>
                 <artifactId>json-smart</artifactId>
                 <version>${json-smart.version}</version>
             </dependency>
-
-            <dependency>
-                <groupId>org.slf4j</groupId>
-                <artifactId>slf4j-api</artifactId>
-                <version>${slf4j.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.slf4j</groupId>
-                <artifactId>slf4j-log4j12</artifactId>
-                <version>${slf4j.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.slf4j</groupId>
-                <artifactId>jcl-over-slf4j</artifactId>
-                <version>${slf4j.version}</version>
-            </dependency>
-            <!-- Graylog GELF -->
-            <dependency>
-                <groupId>biz.paluch.logging</groupId>
-                <artifactId>logstash-gelf</artifactId>
-                <version>${gelf.version}</version>
-            </dependency>
-
 
             <!-- Apache Commons -->
             <dependency>
@@ -248,13 +211,6 @@
                 <groupId>org.apache.commons</groupId>
                 <artifactId>commons-lang3</artifactId>
                 <version>${commons.lang3.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>commons-logging</groupId>
-                <artifactId>commons-logging</artifactId>
-                <!-- replaced by org.slf4j:jcl-over-slf4j, cf. http://spring.io/blog/2009/12/04/logging-dependencies-in-spring/ -->
-                <version>${commons.logging.version}</version>
-                <scope>provided</scope>
             </dependency>
             <dependency>
                 <groupId>org.apache.commons</groupId>
@@ -510,6 +466,28 @@
                 <artifactId>activation</artifactId>
                 <version>${javax.activation.version}</version>
             </dependency>
+            <dependency>
+                <groupId>javax.annotation</groupId>
+                <artifactId>javax.annotation-api</artifactId>
+                <version>1.3.1</version>
+            </dependency>
+
+
+            <dependency>
+                <groupId>javax.xml.bind</groupId>
+                <artifactId>jaxb-api</artifactId>
+                <version>2.2.11</version>
+            </dependency>
+            <dependency>
+                <groupId>com.sun.xml.bind</groupId>
+                <artifactId>jaxb-core</artifactId>
+                <version>2.2.11</version>
+            </dependency>
+            <dependency>
+                <groupId>com.sun.xml.bind</groupId>
+                <artifactId>jaxb-impl</artifactId>
+                <version>2.2.11</version>
+            </dependency>
 
             <!-- Quartz -->
             <dependency>
@@ -534,7 +512,7 @@
                 <groupId>com.paypal.sdk</groupId>
                 <artifactId>merchantsdk</artifactId>
                 <version>${paypal.merchantsdk.version}</version>
-            </dependency>
+            </dependency>                
 
             <!-- memcached Session Manager -->
             <dependency>
@@ -791,6 +769,12 @@
                 <version>${bootstrap-filestyle.version}</version>
             </dependency>
             <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>1.18.8</version>
+                <scope>provided</scope>
+            </dependency>
+            <dependency>
                 <groupId>org.webjars</groupId>
                 <artifactId>font-awesome</artifactId>
                 <version>${font-awesome.version}</version>
@@ -800,26 +784,16 @@
     </dependencyManagement>
 
     <dependencies>
-
-        <!-- Logging -->
-        <dependency>
-            <groupId>net.logstash.log4j</groupId>
-            <artifactId>jsonevent-layout</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-log4j12</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>jcl-over-slf4j</artifactId>
-        </dependency>
         <dependency>
             <groupId>biz.paluch.logging</groupId>
             <artifactId>logstash-gelf</artifactId>
+            <version>${version.logstash-gelf}</version>
         </dependency>
-
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>${logback.version}</version>
+        </dependency>
         <!-- Apache Commons -->
         <dependency>
             <groupId>org.apache.commons</groupId>
@@ -930,6 +904,7 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-instrument-tomcat</artifactId>
+            <version>4.3.23.RELEASE</version>
             <scope>provided</scope>
         </dependency>
 
@@ -1135,7 +1110,7 @@
         <dependency>
             <groupId>org.mockito</groupId>
             <artifactId>mockito-all</artifactId>
-            <version>1.9.5</version>
+            <version>1.10.19</version>
             <scope>test</scope>
         </dependency>
 
@@ -1144,6 +1119,34 @@
             <artifactId>junit</artifactId>
             <version>4.12</version>
             <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>javax.annotation</groupId>
+            <artifactId>javax.annotation-api</artifactId>
+            <version>1.3.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>javax.xml.bind</groupId>
+            <artifactId>jaxb-api</artifactId>
+            <version>2.2.11</version>
+        </dependency>
+        <dependency>
+            <groupId>com.sun.xml.bind</groupId>
+            <artifactId>jaxb-core</artifactId>
+            <version>2.2.11</version>
+        </dependency>
+        <dependency>
+            <groupId>com.sun.xml.bind</groupId>
+            <artifactId>jaxb-impl</artifactId>
+            <version>2.2.11</version>
+        </dependency>
+
+        <dependency>
+            <groupId>javax.cache</groupId>
+            <artifactId>cache-api</artifactId>
+            <version>1.1.0</version>
         </dependency>
     </dependencies>
 
@@ -1183,7 +1186,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.1</version>
+                <version>3.8.0</version>
                 <configuration>
                     <compilerVersion>${java.version}</compilerVersion>
                     <source>${java.version}</source>
