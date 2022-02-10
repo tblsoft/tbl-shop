@@ -53,7 +53,7 @@
         <aspectj.version>1.8.2</aspectj.version>
 
         <mysql.version>5.1.33</mysql.version>
-        <hibernate.version>4.3.6.Final</hibernate.version>
+        <hibernate.version>5.4.24.Final</hibernate.version>
         <jadira-usertype.version>3.2.0.GA</jadira-usertype.version>
         <querydsl.version>3.4.3</querydsl.version>
         <mysema-commons.version>0.2.4</mysema-commons.version>
