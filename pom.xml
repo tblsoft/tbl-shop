@@ -62,7 +62,7 @@
 
         <jackson2.core.version>2.5.2</jackson2.core.version>
         <jackson2.annotations.version>2.5.2</jackson2.annotations.version>
-        <jackson2.databind.version>2.5.2</jackson2.databind.version>
+        <jackson2.databind.version>2.13.4</jackson2.databind.version>
         <validator.version>5.1.2.Final</validator.version>
         <spel-validator.version>1.0.1</spel-validator.version>
 
@@ -1289,7 +1289,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <execute />
+                                        <execute/>
                                     </action>
                                 </pluginExecution>
                                 <pluginExecution>
@@ -1303,7 +1303,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <execute />
+                                        <execute/>
                                     </action>
                                 </pluginExecution>
                                 <pluginExecution>
@@ -1316,7 +1316,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <execute />
+                                        <execute/>
                                     </action>
                                 </pluginExecution>
                             </pluginExecutions>
