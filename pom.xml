@@ -31,7 +31,7 @@
 
         <commons.beantutils.version>1.9.2</commons.beantutils.version>
         <commons.codec.version>1.9</commons.codec.version>
-        <commons.collections4.version>4.0</commons.collections4.version>
+        <commons.collections4.version>4.1</commons.collections4.version>
         <commons.csv.version>1.0</commons.csv.version>
         <commons.dbcp.version>2.0.1</commons.dbcp.version>
         <commons.digester.version>3.2</commons.digester.version>
@@ -43,7 +43,7 @@
         <commons.logging.version>1.2</commons.logging.version>
         <commons.math.version>3.4</commons.math.version>
         <commons.pool.version>2.2</commons.pool.version>
-        <commons.validator.version>1.4.0</commons.validator.version>
+        <commons.validator.version>1.7</commons.validator.version>
         <guava.version>18.0</guava.version>
         <bouncycastle.version>1.51</bouncycastle.version>
         <jsch.version>0.1.51</jsch.version>
@@ -62,7 +62,7 @@
 
         <jackson2.core.version>2.5.2</jackson2.core.version>
         <jackson2.annotations.version>2.5.2</jackson2.annotations.version>
-        <jackson2.databind.version>2.5.2</jackson2.databind.version>
+        <jackson2.databind.version>2.7.9.6</jackson2.databind.version>
         <validator.version>5.1.2.Final</validator.version>
         <spel-validator.version>1.0.1</spel-validator.version>
 
@@ -1289,7 +1289,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <execute />
+                                        <execute/>
                                     </action>
                                 </pluginExecution>
                                 <pluginExecution>
@@ -1303,7 +1303,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <execute />
+                                        <execute/>
                                     </action>
                                 </pluginExecution>
                                 <pluginExecution>
@@ -1316,7 +1316,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <execute />
+                                        <execute/>
                                     </action>
                                 </pluginExecution>
                             </pluginExecutions>
