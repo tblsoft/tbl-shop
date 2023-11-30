@@ -27,7 +27,7 @@
         <json-smart.version>1.3</json-smart.version>
         <slf4j.version>1.7.7</slf4j.version>
         <version.logstash-gelf>1.14.1</version.logstash-gelf>
-        <logback.version>1.2.10</logback.version>
+        <logback.version>1.4.12</logback.version>
 
         <commons.beantutils.version>1.9.2</commons.beantutils.version>
         <commons.codec.version>1.9</commons.codec.version>
@@ -1289,7 +1289,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <execute />
+                                        <execute/>
                                     </action>
                                 </pluginExecution>
                                 <pluginExecution>
@@ -1303,7 +1303,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <execute />
+                                        <execute/>
                                     </action>
                                 </pluginExecution>
                                 <pluginExecution>
@@ -1316,7 +1316,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <execute />
+                                        <execute/>
                                     </action>
                                 </pluginExecution>
                             </pluginExecutions>
