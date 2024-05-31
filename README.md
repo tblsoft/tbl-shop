@@ -7,11 +7,9 @@ x & \text{otherwise}
 $$
 
 $$
-\[
 \text{availableScore} = \begin{cases} 
 2, \text{if available = true} \\
 0, \text{if available = false} \\
 \end{cases}
-\]
 $$
 
