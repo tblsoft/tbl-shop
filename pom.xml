@@ -48,7 +48,7 @@
         <bouncycastle.version>1.51</bouncycastle.version>
         <jsch.version>0.1.51</jsch.version>
         <xml-apis.version>1.4.01</xml-apis.version>
-        <xerces.version>2.11.0</xerces.version>
+        <xerces.version>2.12.2</xerces.version>
         <antlr-runtime.version>3.5.2</antlr-runtime.version>
         <aspectj.version>1.8.2</aspectj.version>
 
