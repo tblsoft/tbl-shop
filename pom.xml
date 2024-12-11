@@ -76,7 +76,7 @@
         <javax.activation.version>1.1.1</javax.activation.version>
 
         <quartz.version>2.2.1</quartz.version>
-        <c3p0.version>0.9.5-pre8</c3p0.version>
+        <c3p0.version>0.9.5.4</c3p0.version>
 
         <paypal.merchantsdk.version>2.11.117</paypal.merchantsdk.version>
 
@@ -1289,7 +1289,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <execute />
+                                        <execute/>
                                     </action>
                                 </pluginExecution>
                                 <pluginExecution>
@@ -1303,7 +1303,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <execute />
+                                        <execute/>
                                     </action>
                                 </pluginExecution>
                                 <pluginExecution>
@@ -1316,7 +1316,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <execute />
+                                        <execute/>
                                     </action>
                                 </pluginExecution>
                             </pluginExecutions>
