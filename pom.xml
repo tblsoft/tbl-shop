@@ -106,7 +106,7 @@
         <jminix.version>1.1.0</jminix.version>
 
         <jawr.version>3.5.2</jawr.version>
-        <closure-compiler.version>v20140814</closure-compiler.version>
+        <closure-compiler.version>v20141023</closure-compiler.version>
 
         <less.version>1.7.5</less.version>
         <bootstrap.version>3.2.0</bootstrap.version>
@@ -1289,7 +1289,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <execute />
+                                        <execute/>
                                     </action>
                                 </pluginExecution>
                                 <pluginExecution>
@@ -1303,7 +1303,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <execute />
+                                        <execute/>
                                     </action>
                                 </pluginExecution>
                                 <pluginExecution>
@@ -1316,7 +1316,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <execute />
+                                        <execute/>
                                     </action>
                                 </pluginExecution>
                             </pluginExecutions>
