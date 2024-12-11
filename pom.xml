@@ -67,7 +67,7 @@
         <spel-validator.version>1.0.1</spel-validator.version>
 
         <spring.version>4.3.23.RELEASE</spring.version>
-        <spring.security.version>3.2.5.RELEASE</spring.security.version>
+        <spring.security.version>5.2.10.RELEASE</spring.security.version>
         <spring.security.oauth2.version>2.0.2.RELEASE</spring.security.oauth2.version>
         <spring.security.jwt.version>1.0.2.RELEASE</spring.security.jwt.version>
         <spring.data.version>1.7.0.RELEASE</spring.data.version>
