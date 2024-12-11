@@ -33,7 +33,7 @@
         <commons.codec.version>1.9</commons.codec.version>
         <commons.collections4.version>4.0</commons.collections4.version>
         <commons.csv.version>1.0</commons.csv.version>
-        <commons.dbcp.version>2.0.1</commons.dbcp.version>
+        <commons.dbcp.version>2.9.0</commons.dbcp.version>
         <commons.digester.version>3.2</commons.digester.version>
         <commons.digester-legacy.version>2.1</commons.digester-legacy.version>
         <commons.httpclient.version>4.3.5</commons.httpclient.version>
@@ -1289,7 +1289,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <execute />
+                                        <execute/>
                                     </action>
                                 </pluginExecution>
                                 <pluginExecution>
@@ -1303,7 +1303,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <execute />
+                                        <execute/>
                                     </action>
                                 </pluginExecution>
                                 <pluginExecution>
@@ -1316,7 +1316,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <execute />
+                                        <execute/>
                                     </action>
                                 </pluginExecution>
                             </pluginExecutions>
